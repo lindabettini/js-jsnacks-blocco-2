@@ -5,7 +5,7 @@ todo - lista di cognomi, Gatsby vuole generare una falsa lista di 3 invitati.
 
 const fakeInvites = [];
 const firstNames = ['Linda', 'Laura', 'Adriana', 'Francesca', 'Sara', 'Luisa'];
-const lastNames = ['Bettini', 'Bigoni', 'Rossi', 'Verdi', 'Bonini'];
+const lastNames = ['Bettini', 'Bigoni', 'Rossi', 'Verdi', 'Bonini', 'Giuliani', 'Nannini'];
 
 while (fakeInvites.length < 3) {
     const randNum1 = Math.floor(Math.random() * firstNames.length);

@@ -57,20 +57,18 @@ todo - e fai la somma di tutti gli elementi che sono in posizione dispari
 
 // // VERSIONE WHILE
 
-const quantityOfNumbs = 10;
+const num = 10;
 const insieme = [];
 let sum = 0;
-let randomNumb;
 
-for ( let y = 0; y < quantityOfNumbs; y++){
-     randomNumb = Math.floor(Math.random() * 101);
-     insieme.push(randomNumb);
-} 
-console.log(insieme);
-
-while (insieme[randomNumb] % 2) {
-    sum += randomNumb;
+let y = 0;
+while (y < num) {
+    let randNum = Math.floor(Math.random() * 100) +1;
+    insieme.push(randNum);
+    y++;
+    // ° Sommo gli elementi che sono in posizione dispari
+    if (y % 2 != 0) {
+    sum += randNum;
+    }
 }
-console.log(sum);
-
 

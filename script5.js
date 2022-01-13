@@ -4,6 +4,7 @@ todo - Aggiungi elementi casuali all’array che ha meno elementi,
 todo - fino a quando ne avrà tanti quanti l’altro.
 */
 
+// // VERSIONE WHILE
 const insieme1 = [10, 20, 30, 40, 50, 60, 70, 80];
 const insieme2= [15, 25, 35, 45, 55];
 console.log(insieme1);

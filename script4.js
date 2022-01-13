@@ -33,7 +33,7 @@ console.log(insieme)
 
 /*
 let sum = 0;
-for (let y = 0; y < quantityOfNumbs; y++) {
+° for (let y = 0; y < quantityOfNumbs; y++) {
     if (y % 2) {
         sum += insieme[y];
     }

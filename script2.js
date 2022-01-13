@@ -17,7 +17,7 @@ if (askNumb % 2){
 
 
 /*
-// ° VERSIONE DO WHILE
+// ° VERSIONE WHILE
 
 let askNumb = parseInt(prompt('Inserisci un numero'));
 

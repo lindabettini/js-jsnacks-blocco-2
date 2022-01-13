@@ -54,7 +54,6 @@ todo - e fai la somma di tutti gli elementi che sono in posizione dispari
 
 
 
-
 // // VERSIONE WHILE
 
 const num = 10;

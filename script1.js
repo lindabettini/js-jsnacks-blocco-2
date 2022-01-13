@@ -5,8 +5,6 @@ todo - Il programma stampa la somma di tutti i numeri inseriti.
 todo - Esegui questo programma in due versioni, con il for e con il while. 
 */
 
-
-
 // ° VERSIONE FOR
 /*
 let sum = 0;
@@ -20,13 +18,14 @@ for (let i = 0; i < 5; i++) {
 }
 */
 
+
 // ° VERSIONE WHILE
-
+/*
 let sum = 0;
-
 let i = 1; 
-while (i < 5) {
-    const num = parseInt(prompt('inserisci un numero (${i})'));
+
+while (i <= 5) {
+    const num = parseInt(prompt(`inserisci un numero (${i}/5)`));
     if (!isNaN(num)) {
         sum += num;
     }
@@ -35,6 +34,24 @@ while (i < 5) {
     console.log(num)
     console.log(sum)
 } 
+*/
+
+
+// ° VERSIONE DO WHILE
+
+let sum = 0;
+let i = 1; 
+
+do {
+    const num = parseInt(prompt(`inserisci un numero (${i}/5)`));
+    if (!isNaN(num)) {
+        sum += num;
+    }
+    i++;
+    console.log(num)
+    console.log(sum)
+} while (i <= 5);
+
 
 
 

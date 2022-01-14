@@ -4,13 +4,10 @@ todo - se è dispari stampa il numero successivo.
 */
 
 
-const askNumb = parseInt(prompt('Inserisci un numero'));
+let askNumb = parseInt(prompt('Inserisci un numero'));
 
-let nuovoNumb = 0;
-
-if (askNumb % 2){
-    nuovoNumb = askNumb + 1;
-    console.log(nuovoNumb);
+if (askNumb % 2){    
+    console.log(++askNumb);
 } else {
     console.log(askNumb);
 }
